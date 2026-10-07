@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>砂時計</title>
+  <style>
+    div{
+      box-sizing: border-box;
+    }
+    #root{
+      background-color: #f1f1f1;
+      width: 300px;
+      padding: 1px;
+    }
+    h1{
+      text-align: center;
+      font-size: 22px;
+    }
+    .bar-container{
+      background-color: #fff;
+      width: 250px;
+      height: 10px;
+      border: 1px solid #666;
+      margin: 0 auto;
+      padding: 2px;
+      border-radius: 5px;
+    }
+    .bar{
+      background-color: #00a497;
+      height: 5px;
+      border-radius: 5px;
+      transition: 0.1s;
+    }
+    .up{
+      width: 100%;
+    }
+    .down{
+      width: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <h1>クリックで計測スタート</h1>
+    <div class="bar-container">
+      <div class="bar up"></div>
+    </div>
+    <div class="middle"><p>停止</p></div>
+    <div class="bar-container">
+      <div class="bar down"></div>
+    </div>
+  </div>
+  <script src="timer.js"></script>
+  <script src="hourGlass.js"></script>
+</body>
+</html>
