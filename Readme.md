@@ -10,9 +10,9 @@
 4. 計測終了時のインターバル停止
 
 ## ファイル構成
-index.html - 表示用html
-timer.js - 経過時間の計測、進捗率の計算を行い描画ファイル（現在はhourGlass.js）に値を渡す
-hourGlass.js - 渡された値を使用して進捗率等を描画
+- index.html - 表示用html
+- timer.js - 経過時間の計測、進捗率の計算を行い描画ファイル（現在はhourGlass.js）に値を渡す
+- hourGlass.js - 渡された値を使用して進捗率等を描画
 
 ## 今後の実装予定
 - 計測時間 duration の外部指定
